@@ -61,7 +61,7 @@ function App() {
       <Navbar title="PlayWithText" handleColor={handleColor} mode={mode} toggleText={toggleText} isVisible={isVisible} isColor={isColor} toggleMode={toggleMode}/>
       <Alert alert={alert}/>
         <Routes>
-          <Route exact path="" element={
+          <Route exact path="/PlayWithText-Publish" element={
             <div className="container my-3">
               <TextForm mode={mode} showAlert={showAlert} heading="Enter Your Text Here:" />
             </div>
